@@ -122,7 +122,6 @@ You are provided with the following files in train.zip:
 |coupon_id	|Unique id for a discount coupon|
 |customer_id	|Unique id for a customer |
 
-*Campaign, coupon and customer data for test set is also contained in train.zip *
 
 **sample_submission.csv:** This file contains the format in which you have to submit your predictions.
 
@@ -142,12 +141,11 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 * The final rankings would be based on your private score which will be published once the competition is over.
 
 
-### Note
+## Note
 
 * **AV_amex_lgb_folds_v28.csv** Private Score of 92.50 (Submitted)
 * **AV_amex_stack2_folds_v28.csv** Private Score 92.811 (Best out of all - mean of CB and LGBM)
 * Stacking always works, dont ignore whatever Public LB says
-* 
 
 ### Leaderboard
 
