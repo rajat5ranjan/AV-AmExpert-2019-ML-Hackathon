@@ -142,14 +142,23 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 * The final rankings would be based on your private score which will be published once the competition is over.
 
 
-### Approach
+### Note
 
+* **AV_amex_lgb_folds_v28.csv** Private Score of 92.50 (Submitted)
+* **AV_amex_stack2_folds_v28.csv** Private Score 92.811 (Best out of all - mean of CB and LGBM)
+* Stacking always works, dont ignore whatever Public LB says
+* 
 
 ### Leaderboard
 
-* **[Public LB](https://datahack.analyticsvidhya.com/contest/amexpert-2019-machine-learning-hackathon/lb)** : **12th/993 Rank**
-* **[Private LB](https://datahack.analyticsvidhya.com/contest/amexpert-2019-machine-learning-hackathon/pvt_lb)** : **XXth/993 Rank**
+* **[Public LB](https://datahack.analyticsvidhya.com/contest/amexpert-2019-machine-learning-hackathon/lb)** : **13th/993 Rank**
+* **[Private LB](https://datahack.analyticsvidhya.com/contest/amexpert-2019-machine-learning-hackathon/pvt_lb)** : **18th/993 Rank**
 
 (6K participants)
 
 ### Things to Learn
+* StratifiedKFold for Imbalanced dataset
+* Feature Importance and Selection
+* Removing correlated Features
+* Ensemble and Stacking
+* Feature Engineering
