@@ -146,6 +146,7 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 * **AV_amex_lgb_folds_v28.csv** Private Score of 92.50 (Submitted)
 * **AV_amex_stack2_folds_v28.csv** Private Score 92.811 (Best out of all - mean of CB and LGBM)
 * Stacking always works, dont ignore whatever Public LB says
+* [Kaggle Link](https://www.kaggle.com/rajatranjan/av-amexpert-2019) Best Kernel -**v31**
 
 ### Leaderboard
 
